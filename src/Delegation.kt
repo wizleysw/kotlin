@@ -17,7 +17,7 @@ interface Base {
     fun abc()
 }
 
-class BaseImpl(val x: Int) : Base됨 {
+class BaseImpl(val x: Int) : Base {
     override fun print() {
         println(message)
     }
